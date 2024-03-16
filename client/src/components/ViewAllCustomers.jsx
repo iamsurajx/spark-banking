@@ -22,7 +22,7 @@ const ViewAllCustomers = () => {
           <div className="col">
             {/* Content */}
           </div>
-          <div className="col-auto">
+          <div className="col-auto mt-4">
             <Link to="/AddUser" className="btn btn-success">Add User</Link>
           </div>
         </div>
