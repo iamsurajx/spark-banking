@@ -12,9 +12,9 @@ app.use(cors())
 
 app.use(express.static(path.resolve(__dirname, "client", "build")))
 
-app.get("/", (req, res) => {
-    res.json("Hello");
-})
+// app.get("/", (req, res) => {
+//     res.json("This is Default Message that [Server is Running Well..]");
+// })
 
 app.use('', routes)
 const startServer = async () => {
